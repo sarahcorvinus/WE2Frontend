@@ -1,29 +1,3 @@
-[![pipeline status](../../../badges/main/pipeline.svg)](../../../-/pipelines/latest)
+# Web2 Frontend
 
-# WE 2, Blatt 09
-
-Zur Bearbeitung und Abgabe des Aufgabenblattes gehen Sie wie folgt vor:
-
-1. Erstellen Sie einen Fork des Projekts unter Ihrer Gitlab-Kennung.
-2. Setzen Sie die Sichtbarkeit Ihres Forks auf private
-3. Klonen Sie Ihren Fork
-4. Führen Sie `npm install` aus
-5. Bearbeiten Sie die Aufgabe auf dem Branch "main"
-6. 'Committen' Sie alle Ihre Änderungen mindestens nach jeder Teilaufgabe, und 'pushen' Sie sie auf Ihren Fork. Geben Sie sinnvolle Commit-Messages an!
-
-Die Tests müssen via `npm test` ausführbar sein. Dies ist initial auch schon so konfiguriert.
-Um die Coverage zu sehen, geben Sie `npm coverage` ein.
-
-Die Pipeline (siehe Badge oben) zeigt Ihnen an, ob Ihr Projekt grundsätzlich für die automatische Korrektur vorbereitet ist.
-
-Für die Abgabe erstellen Sie eine Zip-Datei mittels
-```
-npm run abgabe
-```
-Diese enthält Ihr lokales Repository. Diese Datei müssen Sie dann in Moodle hochladen.
-
-Weiteres zur Bearbeitung und Abgabe finden Sie im Blatt "Modalitäten" unter Moodle.
-
-## Lizenz (License)
-
-Die Dateien dürfen nur im Rahmen der oben genannten Vorlesung verwendet werden und sind nur zum persönlichen Gebrauch bestimmt.
+Willkommen zum Frontend-Projekt von Web2! Dieses Projekt ist ein React-basiertes Frontend, das mit einem selbst erstellten Backend integriert ist. Das Backend ist auf GitHub unter [WE2Backend](https://github.com/sarahcorvinus/WE2Backend) zu finden. Es stellt zudem Demodaten bereit sollte das Backend nicht aktiv im Hintergrund laufen, damit man die Funktionsweise des Frontends beurteilen kann.
