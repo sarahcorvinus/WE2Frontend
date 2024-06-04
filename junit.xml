@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="21" failures="1" errors="0" time="1.967">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-01-28T17:13:06" time="0.531" tests="1">
+    <testcase classname=" render AlleProtokolle" name=" render AlleProtokolle" time="0.02">
+      <failure>Error: ErrorBoundaryContext not found
+    at assertErrorBoundaryContext (/Users/sarah/we2.blatt09/node_modules/react-error-boundary/dist/react-error-boundary.cjs.js:113:11)
+    at useErrorBoundary (/Users/sarah/we2.blatt09/node_modules/react-error-boundary/dist/react-error-boundary.cjs.js:120:3)
+    at AlleProtokolle (/Users/sarah/we2.blatt09/src/components/AlleProtokolle.tsx:11:46)
+    at renderWithHooks (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:16305:18)
+    at mountIndeterminateComponent (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:20074:13)
+    at beginWork (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:21587:16)
+    at beginWork$1 (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:27426:14)
+    at performUnitOfWork (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:26560:12)
+    at workLoopSync (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:26466:5)
+    at renderRootSync (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:26434:7)
+    at recoverFromConcurrentError (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:25850:20)
+    at performConcurrentWorkOnRoot (/Users/sarah/we2.blatt09/node_modules/react-dom/cjs/react-dom.development.js:25750:22)
+    at flushActQueue (/Users/sarah/we2.blatt09/node_modules/react/cjs/react.development.js:2667:24)
+    at act (/Users/sarah/we2.blatt09/node_modules/react/cjs/react.development.js:2582:11)
+    at /Users/sarah/we2.blatt09/node_modules/@testing-library/react/dist/act-compat.js:46:25
+    at renderRoot (/Users/sarah/we2.blatt09/node_modules/@testing-library/react/dist/pure.js:161:26)
+    at render (/Users/sarah/we2.blatt09/node_modules/@testing-library/react/dist/pure.js:247:10)
+    at Object.&lt;anonymous&gt; (/Users/sarah/we2.blatt09/src/components/__test__/AlleProtokolle.test.tsx:16:11)
+    at Promise.then.completed (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/run.js:66:9)
+    at run (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/sarah/we2.blatt09/node_modules/react-scripts/node_modules/jest-runner/build/runTest.js:475:34)</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-28T17:13:07" time="0.225" tests="6">
+    <testcase classname=" renders Protokoll component with test data" name=" renders Protokoll component with test data" time="0.055">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.007">
+    </testcase>
+    <testcase classname=" renders Protokoll component with test data" name=" renders Protokoll component with test data" time="0.026">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.002">
+    </testcase>
+    <testcase classname=" renders Protokoll component with test data" name=" renders Protokoll component with test data" time="0.023">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-28T17:13:07" time="0.138" tests="1">
+    <testcase classname=" Überschrift Trinkprotokolle vorhanden" name=" Überschrift Trinkprotokolle vorhanden" time="0.037">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-28T17:13:07" time="0.119" tests="1">
+    <testcase classname=" Catch error and show in ErrorFallback" name=" Catch error and show in ErrorFallback" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-28T17:13:07" time="0.118" tests="6">
+    <testcase classname=" renders Eintrag 0 correctly" name=" renders Eintrag 0 correctly" time="0.009">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.002">
+    </testcase>
+    <testcase classname=" renders Eintrag 1 correctly" name=" renders Eintrag 1 correctly" time="0.002">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.002">
+    </testcase>
+    <testcase classname=" renders Eintrag 2 correctly" name=" renders Eintrag 2 correctly" time="0.003">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-01-28T17:13:08" time="0.115" tests="6">
+    <testcase classname=" renders ProtokollDescription component with test data" name=" renders ProtokollDescription component with test data" time="0.011">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.002">
+    </testcase>
+    <testcase classname=" renders ProtokollDescription component with test data" name=" renders ProtokollDescription component with test data" time="0.002">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.001">
+    </testcase>
+    <testcase classname=" renders ProtokollDescription component with test data" name=" renders ProtokollDescription component with test data" time="0.002">
+    </testcase>
+    <testcase classname=" checks if non-existing text is not in document" name=" checks if non-existing text is not in document" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
