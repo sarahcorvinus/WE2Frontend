@@ -1,7 +1,7 @@
 import { ErrorBoundary } from "react-error-boundary";
 import { ErrorFallback } from "../ErrorFallback";
-import Bomb from "./Bomb";
 import { act, render, screen } from "@testing-library/react";
+import { Bomb } from "./Bomb";
 
 test('Catch error and show in ErrorFallback', async () => {
     const orgError = console.error;

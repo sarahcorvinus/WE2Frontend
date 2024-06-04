@@ -5,9 +5,9 @@ import { ProtokollDescription } from '../ProtokollDescription';
 protokolle.forEach((protokoll) => {
     test('renders ProtokollDescription component with test data', () => {
         // Provide a mock function for setSelectedProtokoll
-        const setSelectedProtokollMock = jest.fn();
+        // const setSelectedProtokollMock = jest.fn();
 
-        render(<ProtokollDescription protokoll={protokoll} setSelectedProtokoll={setSelectedProtokollMock} />);
+        render(<ProtokollDescription protokoll={protokoll}/>);
 
         expect(screen.getByText(`Trinkprotokoll für ${protokoll.patient}`)).toBeInTheDocument();
         expect(screen.getByText(`Erstellt am ${protokoll.datum} von ${protokoll.erstellerName}`)).toBeInTheDocument();
@@ -19,9 +19,9 @@ protokolle.forEach((protokoll) => {
 
     test('checks if non-existing text is not in document', () => {
         // Provide a mock function for setSelectedProtokoll
-        const setSelectedProtokollMock = jest.fn();
+        // const setSelectedProtokollMock = jest.fn();
 
-        render(<ProtokollDescription protokoll={protokoll} setSelectedProtokoll={setSelectedProtokollMock} />);
+        render(<ProtokollDescription protokoll={protokoll}/>);
         expect(screen.queryByText('Text that should not be in the document')).not.toBeInTheDocument();
     });
 });

@@ -12,7 +12,7 @@ javascript:
   stage: test
   script:
     - npm install
-    - CI="false" npm test -- --reporters jest-junit --coverage true --watchAll=false
+    - npm run coverage
   artifacts:
     when: always
     reports:

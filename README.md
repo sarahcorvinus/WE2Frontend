@@ -1,3 +1,3 @@
-# Web2 Frontend
+# WEB2 Frontend
 
-Willkommen zum Frontend-Projekt von Web2! Dieses Projekt ist ein React-basiertes Frontend, das mit einem selbst erstellten Backend integriert ist. Das Backend ist auf GitHub unter [WE2Backend](https://github.com/sarahcorvinus/WE2Backend) zu finden. Es stellt zudem Demodaten bereit sollte das Backend nicht aktiv im Hintergrund laufen, damit man die Funktionsweise des Frontends beurteilen kann.
+Willkommen zum Frontend-Projekt von Web2! Dieses Projekt ist ein React-basiertes Frontend, das mit einem selbst erstellten Backend integriert ist. Das Backend ist auf GitHub unter Das Backend ist auf GitHub unter [WE2Backend](https://github.com/sarahcorvinus/WE2Backend) zu finden. zu finden. Es stellt zudem Demodaten bereit sollte das Backend nicht aktiv im Hintergrund laufen, damit man die Funktionsweise des Frontends beurteilen kann.
